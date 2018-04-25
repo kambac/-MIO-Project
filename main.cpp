@@ -17,7 +17,7 @@ int main(){
     //kandydat* tab = new kandydat[n];
     int tmp=1;
     //5 kryteriow
-    unsigned l_kryteriow =10 +2;
+    const unsigned l_kryteriow =10 +2;
     bool kryteria[l_kryteriow];
     int pensja[2];
     for (unsigned i=0; i<l_kryteriow; i++){
